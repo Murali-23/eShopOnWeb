@@ -1,4 +1,4 @@
-name: eShopOnWeb Build and Test
+name: eShopOnWeb Build and Testing
 
 #Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
@@ -6,10 +6,10 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-murali1
-  LOCATION: westus
+  LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: c2897d89-056e-420a-9474-c9e02e7ed5e9
-  WEBAPP-NAME: murali
+  WEBAPP-NAME: eshoponweb-murali
 
 
 jobs:
